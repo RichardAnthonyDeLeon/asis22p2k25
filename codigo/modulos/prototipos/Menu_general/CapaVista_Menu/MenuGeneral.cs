@@ -28,8 +28,35 @@ namespace CapaVista_Menu
 
         private void consultaBitacoraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CapaVista_Seguridad.frmBitacora bitacora = new CapaVista_Seguridad.frmBitacora();
-            bitacora.ShowDialog();
+            Help.ShowHelp(this, "AyudaRisko/AyudaConsultaP2.chm", "Consulta.html");
+        }
+
+        private void reporteAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Reporte frm = new Reporte();
+            frm.Show();
+
+        }
+
+        private void mantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mantenimientoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reporteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

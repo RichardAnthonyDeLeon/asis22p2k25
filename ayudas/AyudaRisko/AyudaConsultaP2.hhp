@@ -1,0 +1,17 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=AyudaConsultaP2.chm
+Contents file=ayudaP2.hhc
+Default Window=ayudaConsultaP2
+Display compile progress=No
+Language=0x100a Español (Guatemala)
+
+[WINDOWS]
+ayudaConsultaP2="Componente Consulta Ayuda","ayudaP2.hhc",,"Consulta.html","Consulta.html","Consulta.html","Consulta.html","Consulta.html","Consulta.html",0x23520,,0xc387e,,,,,,,,0
+
+
+[FILES]
+Consulta.html
+
+[INFOTYPES]
+
